@@ -3,8 +3,31 @@
   padding: 0;
 }
 
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+
+html.no-scroll,
+body.no-scroll {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+}
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  color: #2929a8;
+}
+
 .navbar {
   display: flex;
+  position: relative;
   align-items: center;
   background-color: #ffffff;
   padding: 1rem 2rem;
@@ -26,7 +49,7 @@
 }
 
 .nav-links a {
-  font-family: arial;
+  font-family: Arial;
   text-decoration: none;
   color: rgba(202, 197, 197, 0.76);
   font-size: 14px;
@@ -60,3 +83,60 @@
   cursor: pointer;
 }
 
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: #3636e3;
+    width: 35%;
+    padding: 1rem 2rem;
+    margin-right: 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .nav-links.open {
+    display: flex;
+    transform: translateX(0);
+
+  }
+
+  .nav-links a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+  }
+
+  .nav-links .close-icon {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: white; /* Adjust depending on your sidebar color */
+  }
+
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .login-section {
+    display: none;
+  }
+
+}

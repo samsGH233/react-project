@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.homepage-intro {
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.blue-header {
+    color: #1348bd;
+}
+
+.homepage-description {
+    font-size: small;
+    margin-top: 25px;
+
+}
+
+.homepage-button {
+    margin: 25px auto 0 auto;
+    padding: 5px 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2929a8;
+    color: white;
+    cursor: pointer;
+    display: block;
+
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 1rem;
+
+}
+
+.statistics-header {
+    margin-top: 300px;
+    margin-bottom: 40px;
+    margin-right: 300px;
+}
+
+.statistics {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 330px;
+    gap: 80px;
+
+}
+
+.statistic-text {
+    font-size: 10px;
+    white-space: nowrap;
+
+}
+
+.info-box-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.info-box-container {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 240px;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.info-box {
+    background-color: #EFF8FF;
+    padding: 1.5rem;
+    color: black;
+    font-size: 8px;
+    width: 200px;
+    height: 150px;
+}
+
+.info-box-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info-box-description {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #344054;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.course-section-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.course-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #344054;
+
+}
+
+.job-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 80px;
+}
+
+
+.job-card {
+    width: 300px;
+    height: 320px;
+    max-width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+.job-card-image-container {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.job-card-image-container img {
+    width: 100%;
+    height: 170px;
+}
+
+.job-card-content {
+    margin-left: 20px;
+}
+
+
+.job-role-label {
+    display: inline-block;
+    background-color: #EFF8FF;
+    color: #175CD3;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+}
+
+.job-card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.job-card-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #223140;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 4rem 8rem;
+    color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-message-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.overlay-message-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.section-bottom {
+    background-color: rgba(195, 234, 234, 0.89);
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+
+}
+

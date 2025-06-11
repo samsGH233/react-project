@@ -9,7 +9,6 @@ body {
 
 .homepage-intro {
     margin-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -24,32 +23,46 @@ body {
 }
 
 .homepage-button {
-    margin: 25px auto 0 auto;
-    padding: 5px 30px;
-    font-size: 12px;
+    height: 55px;
+    width: 321px;
+    font-size: 16px;
     border: none;
-    border-radius: 3px;
-    background-color: #2929a8;
+    border-radius: 5px;
+    background-color: #1849A9;
+    margin: 100px auto 0 auto;
     color: white;
     cursor: pointer;
     display: block;
+    transition: color 0.3s ease;
 
 }
 
+.headers h1 {
+    font-size: 60px;
+}
+.homepage-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid ;
+
+}
 
 .image-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 1504px;
     margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .background-image {
-    width: 100%;
-    height: auto;
+    width: 1504px;
+    height: 712px;
     display: block;
-    border-radius: 10px;
-    margin-top: 50px;
+    border-radius: 50px;
+    opacity: 90%;
+    margin: 50px auto 0 auto;
 }
 
 .image-text {
@@ -59,19 +72,20 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     padding: 1rem;
+    max-width: 90%;
+    z-index: 2;
 
 }
 
 .statistics-header {
-    margin-top: 300px;
-    margin-bottom: 40px;
-    margin-right: 300px;
+    margin-left: 20px;
+    margin-top: 500px;
+    margin-bottom:40px;
 }
 
 .statistics {
     display: flex;
-    margin-left: 180px;
-    margin-right: 330px;
+    margin-right: 600px;
     gap: 80px;
 
 }
@@ -82,19 +96,12 @@ body {
 
 }
 
-.info-box-header {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
-    margin-bottom: 80px;
-}
-
 .info-box-container {
     display: flex;
-    margin-left: 130px;
-    margin-right: 240px;
-    margin-bottom: 50px;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 40px;
+
 }
 
 .info-box {
@@ -102,47 +109,47 @@ body {
     padding: 1.5rem;
     color: black;
     font-size: 8px;
-    width: 200px;
-    height: 150px;
+    width: 360px;
+    height: 225px;
+    border-radius: 6.53px;
 }
 
 .info-box-title {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 25px;
 }
-
 .info-box-description {
-    font-family: Arial, Helvetica, sans-serif;
     color: #344054;
     font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
+    margin-top: 30px;
 }
 
 .course-section-title {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 32px;
 
 }
 
 .course-paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 10px;
     color: #344054;
-
+    line-height: 32px;
+    margin-bottom: 50px;
 }
 
 .job-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin: 80px;
+    gap: 50px;
+    justify-content: center; /* centers the grid content if there's extra space */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -154,7 +161,6 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background: #fff;
-    font-family: Arial, sans-serif;
 }
 
 
@@ -188,23 +194,15 @@ body {
 }
 
 .job-card-title {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 800;
     margin-bottom: 10px;
 }
 .job-card-description {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #223140;
 }
 
-.hero-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
 
 .overlay-message {
     position: absolute;
@@ -213,27 +211,32 @@ body {
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    padding: 4rem 8rem;
+    height: 456px;
     color: #fff;
+    width: 1251px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .overlay-message-header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
+    font-size: 60px;
+    margin-top: 60px;
+    line-height: 70px;
+
 }
 
 .overlay-message-paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 23.51px;
     text-align: center;
+    line-height: 36.57px;
 }
+
 
 .section-bottom {
     background-color: rgba(195, 234, 234, 0.89);
-    width: 100%;
-    height: 300px;
+    width: 100vw;
+    height: 503px;
     padding-top: 10px;
 
 }

@@ -1,8 +1,8 @@
 .footer {
     background-color: #194185;
     color: #ffffff;
-    padding: 40px 20px 20px 20px;
-    font-family: 'Arial', sans-serif;
+    width: 100vw;
+    height: 409px;
 }
 
 .footer-content {
@@ -11,19 +11,27 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.footer-first-section {
+    
 }
 
 .footer-info {
     display: flex;
-    align-items: flex-start;         /* Align sections to the top */
-    padding: 40px 20px;
-    gap: 80px;                        /* Optional: spacing between columns */
-    flex-wrap: wrap;                 /* Allows wrapping on smaller screens */
+    gap: 130px;
+    margin: 0;
+
+}
+
+.footer-info h3 {
+    font-size: 23px;
+    margin-bottom: 28px;
 }
 
 .footer-first-section h2 {
     font-size: 16px;
-    margin-top: 5px;
     margin-bottom: 2px;
 }
 
@@ -35,21 +43,16 @@
     list-style: none;
 }
 .footer-section ul li a {
-    margin-top: 8px;
-    font-size: 11px;
+    margin-top: 10px;
+    font-size: 16px;
     color: #f1f1f1;
     text-decoration: none;
 
 }
 
-.footer-section h2,h3 {
-    font-size: 18px;
-    margin-bottom: 12px;
-}
 
 .footer-section p,
-.footer-section a {
-    font-size: 12px;
+.footer-section ul li a {
     margin-bottom: 10px;
 
 }
@@ -62,16 +65,22 @@
 .footer-bottom {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 40px;
     border-top: 1px solid #ffffff;
-    font-size: 12px;
+    font-size: 18.68px;
     color: #ffffff;
+}
+
+.footer-bottom .footer-copy {
+    margin-left: 20px;
 }
 
 .terms-policy {
     display: flex;
     gap: 12px;
     text-decoration: underline;
+    margin-right: 50px;
+    font-size: 18px;
 }
 
 .social-icons {
@@ -80,10 +89,11 @@
 
 .social-icons a {
     margin-right: 12px;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     display: inline-block;
     transition: color 0.3s ease;
+
 }
 
 .social-icons a:hover {
@@ -91,7 +101,6 @@
 }
 
 .footer-logo {
-
     width: 30px;
     height: 30px;
     border-radius: 50%;

@@ -42,18 +42,14 @@ const App = () => {
       <div>
           <Navbar />
           <HomePage />
-          <h3 className="info-box-header">Gaining Experience that goes beyond mere <br/> Online Training</h3>
+          <h3 className="course-section-title">Gaining Experience that goes beyond mere <br/> Online Training</h3>
           <div className="info-box-container">
-
              <div>
                  <Card Icon={FaChalkboardTeacher} card_title={"Personal Mentorship"} description={"Learn from mentors " +
                      "with real-world expertise, offering guidance you can trust. Get mentorship designed specifically" +
                      " for you." }/>
              </div>
               <div>
-
-
-
                   <Card Icon={MdHandyman} card_title={"Hands on Training"} description={"Hands-on training ensures " +
                       "you truly understand and remember what you learn. Master real-world skills through immersive, " +
                       "practical experiences." }/>
@@ -74,59 +70,77 @@ const App = () => {
                   to help you achieve your goals.</p>
 
           <div className="job-card-container">
-              <JobCard image={image1} roleName={"Business Analyst"} courseName={"Risk Management Principles"} description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
-              <JobCard image={image2} roleName={"Project Manager"} courseName={"Advanced Project Management"}  description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
-              <JobCard image={image3} roleName={"Data Protection"} courseName={"Data Protection"}  description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
-              <JobCard image={image4} roleName={"Project Manager"} courseName={"Business Analysis"}  description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
-              <JobCard image={image5} roleName={"Project Manager"} courseName={"UI / UX Design"}  description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
-              <JobCard image={image6} roleName={"Project Manager"} courseName={"Data Analytics"}  description={
-                  "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
-              }/>
+              <div>
+                  <JobCard image={image1} roleName={"Business Analyst"} courseName={"Risk Management Principles"} description={
+                      "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                  }/>
+              </div>
+              <div>
+                  <JobCard image={image2} roleName={"Project Manager"} courseName={"Advanced Project Management"}  description={
+                      "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                  }/>
+              </div>
+             <div>
+                 <JobCard image={image3} roleName={"Data Protection"} courseName={"Data Protection"}  description={
+                     "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                 }/>
+             </div>
+             <div>
+                 <JobCard image={image4} roleName={"Project Manager"} courseName={"Business Analysis"}  description={
+                     "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                 }/>
+             </div>
+              <div>
+                  <JobCard image={image5} roleName={"Project Manager"} courseName={"UI / UX Design"}  description={
+                      "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                  }/>
+              </div>
+             <div>
+                 <JobCard image={image6} roleName={"Project Manager"} courseName={"Data Analytics"}  description={
+                     "Dive in an  learn from expert! Learn the importance of analysis, analytic tools and techniques, way more!"
+                 }/>
+             </div>
+
 
           </div>
+
           <button className="homepage-button">Start Your Free Trial</button>
           <h2 className="course-section-title">Top Industry Tools</h2>
           <p className="course-paragraph">Practice with real-world scenarios using the tools professionals rely on.</p>
+
           <div className="tools-columns">
-          <div className="column">
-              <TopTools name={"Shopify"} logo={shopifyIcon} />
-              <TopTools name={"Microsoft Teams"} logo={teamsIcon} />
-              <TopTools name={"Microsoft Excel"} logo={excelIcon} />
-          </div>
-          <div className="column-lowered">
-              <TopTools name={"Google Calendar"} logo={calendarIcon} />
-              <TopTools name={"Trello"} logo={trelloIcon} />
-              <TopTools name={"Sales Force"} logo={salesForceIcon} />
-          </div>
-          <div className="column">
-              <TopTools name={"Slack"} logo={slackIcon} />
-              <TopTools name={"Confluence"} logo={confluenceIcon} />
-              <TopTools name={"Telegram"} logo={telegramIcon} />
-          </div>
-          <div className="column-lowered">
-              <TopTools name={"Zapier"} logo={zapierIcon} />
-              <TopTools name={"Google Analytic"} logo={googleAnalytic} />
-              <TopTools name={"HubSpot"} logo={hubSpotIcon} />
-          </div>
-          </div>
 
-          <div className="hero-container">
-
-              <div className="image-container">
-                <img src={uniImage} alt="Visual description" className="background-image" />
+              <div className="column">
+                  <TopTools name={"Shopify"} logo={shopifyIcon} />
+                  <TopTools name={"Microsoft Teams"} logo={teamsIcon} />
+                  <TopTools name={"Microsoft Excel"} logo={excelIcon} />
               </div>
+
+              <div className="column-lowered">
+                  <TopTools name={"Google Calendar"} logo={calendarIcon} />
+                  <TopTools name={"Trello"} logo={trelloIcon} />
+                  <TopTools name={"Sales Force"} logo={salesForceIcon} />
+              </div>
+
+              <div className="column">
+                  <TopTools name={"Slack"} logo={slackIcon} />
+                  <TopTools name={"Confluence"} logo={confluenceIcon} />
+                  <TopTools name={"Telegram"} logo={telegramIcon} />
+              </div>
+
+              <div className="column-lowered">
+                  <TopTools name={"Zapier"} logo={zapierIcon} />
+                  <TopTools name={"Google Analytic"} logo={googleAnalytic} />
+                  <TopTools name={"HubSpot"} logo={hubSpotIcon} />
+              </div>
+
+          </div>
+
+          <div className="image-container">
+                <img src={uniImage} alt="Visual description" className="background-image" />
+
               <div className="overlay-message">
-                  <h1 className="overlay-message-header">Leading Students to Opportunities</h1>
+                  <h1 className="overlay-message-header">Leading Students to <br/> Opportunities</h1>
                   <p className="overlay-message-paragraph">Discover endless skills and opportunities at Connectinskillz, <br/>
                       where students can have the best learning experiences. Join us <br/> today!</p>
               </div>

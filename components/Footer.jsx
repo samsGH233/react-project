@@ -6,6 +6,7 @@ import logo from "../images/connectinSkillz logo.avif";
 const Footer = () => {
     return (
         <footer className="footer">
+
             <div className="footer-content">
 
                 <div className="footer-first-section">
@@ -25,7 +26,7 @@ const Footer = () => {
 
 
                 <div className="footer-section links">
-                    <h3>Quick Links</h3>
+                    <h3>Company</h3>
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/courses">Courses</a></li>
@@ -44,11 +45,12 @@ const Footer = () => {
                 </div>
 
                 </div>
+
             </div>
 
 
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} ConnectinSkillz. All rights reserved.</p>
+                <p className="footer-copy">&copy; {new Date().getFullYear()} ConnectinSkillz. All rights reserved.</p>
                 <div className="terms-policy">
                     <p>Terms of service</p>
                     <p>Privacy policy</p>

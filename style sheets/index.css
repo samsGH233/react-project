@@ -11,7 +11,7 @@ body {
 .no-scroll {
   overflow: hidden;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
@@ -48,7 +48,7 @@ body.no-scroll {
   list-style: none;
   display: flex;
   gap: 2rem;
-  margin-right: 380px;
+  justify-content: center;
 }
 
 .nav-links a {

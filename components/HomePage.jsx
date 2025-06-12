@@ -23,19 +23,19 @@ const HomePage = () => {
                         <h2 className="statistics-header">We are building a community</h2>
                         <div className="statistics">
                             <div>
-                                <h2>10k+</h2>
+                                <h2 className="statistic-number">10k+</h2>
                                 <p className="statistic-text">WorldWide Learners</p>
                             </div>
                             <div>
-                                <h2>168k+</h2>
+                                <h2 className="statistic-number">168k+</h2>
                                 <p className="statistic-text">Master Class Trainers</p>
                             </div>
                             <div>
-                                <h2>10k+</h2>
+                                <h2 className="statistic-number">10k+</h2>
                                 <p className="statistic-text">Courses</p>
                             </div>
                             <div>
-                                <h2>2hrs+</h2>
+                                <h2 className="statistic-number">2hrs+</h2>
                                 <p className="statistic-text">Training Courses</p>
                             </div>
 

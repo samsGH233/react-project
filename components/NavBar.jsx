@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../images/connectinSkillz logo.avif';
+import logo from '../images/connectinSkillz-logo2.png';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from 'react-icons/ai';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import '../style sheets/Footer.css';
-import logo from "../images/connectinSkillz logo.avif";
+import logo from "../images/connectinSkillz-logo2.png";
 
 const Footer = () => {
     return (

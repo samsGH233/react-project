@@ -77,6 +77,7 @@ body {
 
 }
 
+
 .statistics-header {
     margin-left: 20px;
     margin-top: 500px;
@@ -85,7 +86,6 @@ body {
 
 .statistics {
     display: flex;
-    margin-right: 600px;
     gap: 80px;
 
 }
@@ -148,24 +148,13 @@ body {
 }
 
 .job-card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    justify-content: center; /* centers the grid content if there's extra space */
+    display: flex;
+    flex-wrap: nowrap;         /* Prevent wrapping to next row */
+    overflow-x: auto;          /* Enable horizontal scroll */
+    gap: 20px;                 /* Space between cards */
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-.job-card {
-    width: 300px;
-    height: 320px;
-    max-width: 400px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    scroll-behavior: smooth;   /* Optional: smooth scroll */
+    -webkit-overflow-scrolling: touch; /* Improves touch scroll on iOS */
 }
 
 
@@ -286,13 +275,42 @@ body {
     }
 
     .job-card {
-        width: 270px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
         max-width: 400px;
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         background: #fff;
+    }
+
+    .info-box {
+        font-size: 8px;
+        width: 100%;
+        max-width: 300px;
+        height: 180px;
+        border-radius: 6.53px;
+    }
+
+
+    .statistics-header {
+        margin-left: 20px;
+        margin-top: 130px;
+        margin-bottom:20px;
+    }
+
+    .statistics {
+        display: flex;
+        gap: 20px;
+    }
+
+    .statistic-number {
+        font-size: 23px;
+    }
+    .statistic-text {
+        font-size: 10px;
+        white-space: nowrap;
+
     }
 }
 

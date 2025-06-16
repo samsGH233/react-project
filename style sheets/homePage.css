@@ -202,10 +202,12 @@ body {
     font-size: 15px;
     font-weight: 800;
     margin-bottom: 10px;
+
 }
 .job-card-description {
     font-size: 14px;
     color: #223140;
+    margin-bottom: 50px;
 }
 
 
@@ -245,4 +247,55 @@ body {
     padding-top: 10px;
 
 }
+
+@media (max-width: 768px) {
+
+    .headers h1 {
+        font-size: 20px;
+    }
+
+    .course-paragraph{
+        font-size: 8px;
+        margin-top: 15px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+
+    .homepage-button {
+        height: 20px;
+        width: 120px;
+        font-size: 8px;
+    }
+
+    .background-image {
+        width: 400px;
+        height: 402px;
+    }
+
+    .course-section-title {
+        font-size: 16px;
+    }
+
+    .job-card-container {
+        display: flex;
+        gap: 50px;
+        justify-content: center; /* centers the grid content if there's extra space */
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .job-card {
+        width: 270px;
+        height: 350px;
+        max-width: 400px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background: #fff;
+    }
+}
+
+
+
 

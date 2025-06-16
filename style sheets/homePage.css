@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
     background-color: rgb(255, 255, 255);
+
 }
 
 .homepage-intro {
@@ -17,8 +19,11 @@ body {
 }
 
 .homepage-description {
-    font-size: small;
+    font-size: 18px;
     margin-top: 25px;
+    color: #344054;
+    line-height: 33px;
+    margin-bottom: 20px;
 
 }
 
@@ -29,7 +34,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #1849A9;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
     color: white;
     cursor: pointer;
     display: block;
@@ -104,7 +109,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin-left: 0;
+    margin-top: 80px;
+    margin-bottom: 210px;
 
 }
 
@@ -134,7 +140,7 @@ body {
 .course-section-title {
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 32px;
 
 }
@@ -240,19 +246,17 @@ body {
 @media (max-width: 768px) {
 
     .headers h1 {
-        font-size: 20px;
+        font-size: 38px;
     }
 
-    .course-paragraph{
-        font-size: 8px;
-        margin-top: 15px;
-        line-height: 15px;
-        margin-bottom: 20px;
+    .homepage-description {
+        font-size: 15px;
+
     }
 
     .homepage-button {
-        height: 20px;
-        width: 120px;
+        height: 40px;
+        width: 200px;
         font-size: 8px;
     }
 
@@ -262,7 +266,7 @@ body {
     }
 
     .course-section-title {
-        font-size: 16px;
+        font-size: 26px;
     }
 
     .job-card-container {
@@ -295,23 +299,44 @@ body {
 
     .statistics-header {
         margin-left: 20px;
-        margin-top: 130px;
-        margin-bottom:20px;
+        margin-top: 270px;
+
     }
 
     .statistics {
         display: flex;
         gap: 20px;
+
     }
 
     .statistic-number {
-        font-size: 23px;
+        font-size: 18px;
     }
+
     .statistic-text {
         font-size: 10px;
         white-space: nowrap;
 
     }
+
+    .overlay-message {
+        height: 206px;
+        width: 380px;
+    }
+
+    .overlay-message-header {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .overlay-message-paragraph {
+        font-size: 12px;
+        text-align: center;
+        line-height: 16.57px;
+    }
+
+
 }
 
 

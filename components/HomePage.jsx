@@ -11,7 +11,7 @@ const HomePage = () => {
                     <h1 className="blue-header">Empowering you to learn at your own pace</h1>
                 </div>
 
-                <p className="course-paragraph">Welcome to ConnectinSkillz, where your path to knowledge and skill mastery begins.
+                <p className="homepage-description ">Welcome to ConnectinSkillz, where your path to knowledge and skill mastery begins.
                     Our innovative Learning Experience Platform <br/> offers a personalized, engaging, and immersive educational
                     experience designed to empower learners at every level.
                 </p>

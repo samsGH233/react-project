@@ -17,7 +17,7 @@ const Footer = () => {
 
                 <div className="footer-info">
 
-                    <div className="footer-section contact">
+                    <div className="footer-section" id="contact">
                         <h3>Support</h3>
                         <p>Email: info@connectinskillz.org</p>
                         <p>Phone: +44 (0) 3301332756</p>
@@ -25,7 +25,7 @@ const Footer = () => {
 
 
 
-                <div className="footer-section links">
+                <div className="footer-section" id="links">
                     <h3>Company</h3>
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="footer-section socials">
+                <div className="footer-section" id="socials">
                     <h3>Social Media</h3>
                     <div className="social-icons">
                         <a href="https://www.facebook.com/www.connectinskillz.org/about/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>

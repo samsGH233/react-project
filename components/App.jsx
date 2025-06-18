@@ -146,7 +146,7 @@ const App = () => {
               </div>
           </div>
           <h2 className="course-section-title">Stories of Success</h2>
-          <p className="course-paragraph">See How We're making a Difference from Those Who've Walked the Path</p>
+          <p className="course-paragraph">See How We're making a Difference from Those Who've <br/> Walked the Path</p>
 
           <div className="success-card-container">
             <SuccessCardsSection />

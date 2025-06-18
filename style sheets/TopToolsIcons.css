@@ -86,7 +86,7 @@
         flex-direction: row;
         overflow-x: auto;
         gap: 20px;
-        padding: 20px;
+        padding: 50px;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
     }

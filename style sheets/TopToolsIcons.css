@@ -78,3 +78,46 @@
     visibility: visible;
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+
+    .tools-columns {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 20px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    }
+
+    .column,
+    .column-lowered {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        scroll-snap-align: start;
+    }
+
+    .column-lowered {
+        margin: 0;
+    }
+
+    .icon-box {
+        width: 80px;
+        height: 80px;
+        margin-top: 0;
+    }
+
+    .icon-box img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .top-tools-icons h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+}

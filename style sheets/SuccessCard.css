@@ -55,7 +55,6 @@
 
 }
 
-
 .success-card.dimmed {
     opacity: 0.4;
 
@@ -98,4 +97,20 @@
 .success-cards-container::-webkit-scrollbar-thumb {
     background-color: #aaa;
     border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .success-card {
+        width: 200px;
+        height: 300px;
+        flex: 0 0 300px;
+    }
+
+    .success-cards-container {
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 60px;
+        gap: 15px;
+        overflow-y: hidden;
+    }
 }

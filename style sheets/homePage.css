@@ -282,8 +282,8 @@ body {
     }
 
     .background-image {
-        width: 500px;
-        height: 402px;
+        width: 100%;
+        height: auto;
     }
 
     .course-section-title {
@@ -320,7 +320,8 @@ body {
     }
 
     .image-text {
-        left: 50%;
+        left: 40%;
+        top: 53%;
     }
 
 
@@ -348,14 +349,14 @@ body {
     }
 
     .overlay-message {
-        height: 206px;
-        width: 380px;
+        height: 70%;
+        width: 90%;
     }
 
     .overlay-message-header {
         font-size: 26px;
         line-height: 30px;
-        margin-top: 20px;
+        top: 100%;
     }
 
     .overlay-message-paragraph {

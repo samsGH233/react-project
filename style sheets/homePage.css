@@ -282,7 +282,7 @@ body {
     }
 
     .background-image {
-        width: 100%;
+        width: 95%;
         height: auto;
     }
 
@@ -290,6 +290,9 @@ body {
         font-size: 26px;
     }
 
+    .course-paragraph {
+        font-size: 15px;
+    }
 
     .job-card-container {
         display: flex;
@@ -320,8 +323,8 @@ body {
     }
 
     .image-text {
-        left: 40%;
-        top: 53%;
+        left: 52%;
+        top: 40%;
     }
 
 
@@ -349,8 +352,9 @@ body {
     }
 
     .overlay-message {
-        height: 70%;
+        height: 68%;
         width: 90%;
+        top: 55%;
     }
 
     .overlay-message-header {

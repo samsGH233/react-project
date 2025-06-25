@@ -146,14 +146,20 @@
 
 
 
+    .footer-section#contact,
+    .footer-section#links,
+    .footer-section#socials {
+        margin-right: 50px;
+    }
 
     .footer-section#links {
-        margin-right: 100px;
+        margin-right: 165px;
     }
 
     .footer-section#socials {
-        margin-right: 75px;
+        margin-right: 150px;
     }
+
 
     .terms-policy {
         flex-direction: column;

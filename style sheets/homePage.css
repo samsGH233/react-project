@@ -38,18 +38,17 @@ body {
     color: white;
     cursor: pointer;
     display: block;
-    transition: color 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
 
 }
 
 .headers h1 {
     font-size: 60px;
 }
-.homepage-button:hover {
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid ;
 
+.homepage-button:hover {
+    transform: scale(1.05); /* grows by 5% */
+    
 }
 
 .image-container {
@@ -291,7 +290,7 @@ body {
     }
 
     .course-paragraph {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 21px;
     }
 
@@ -325,12 +324,12 @@ body {
 
     .image-text {
         left: 52%;
-        top: 35%;
+        top: 34%;
     }
 
 
     .statistics-header {
-       margin-top: 270px;
+        margin-top: 270px;
         font-size: 10px;
         margin-bottom: 18px;
 
@@ -343,11 +342,11 @@ body {
     }
 
     .statistic-number {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .statistic-text {
-        font-size: 8px;
+        font-size: 10px;
         white-space: nowrap;
 
     }

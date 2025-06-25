@@ -20,7 +20,7 @@ const HomePage = () => {
                 <div className="image-container">
                     <img src={image} alt="Visual description" className="background-image" />
                     <div className="image-text">
-                        <h2 className="statistics-header">We are building a community</h2>
+                        <p className="statistics-header">We are building a community</p>
                         <div className="statistics">
                             <div>
                                 <h2 className="statistic-number">10k+</h2>
